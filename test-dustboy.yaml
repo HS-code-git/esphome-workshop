@@ -48,11 +48,6 @@ light:
     restore_mode: RESTORE_AND_ON   
 
 
-uart:
-  tx_pin: 16
-  rx_pin: 17
-  baud_rate: 9600
-
 
 spi:
   - id: lcd
@@ -87,7 +82,6 @@ image:
     id: esphome_logo
     resize: 200x162
 
-  
 
 font:
   - file:
